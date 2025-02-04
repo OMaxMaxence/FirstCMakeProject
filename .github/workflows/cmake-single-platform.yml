@@ -32,7 +32,7 @@ jobs:
       shell: cmd
 
     - name: Configure CMake
-      working-directory: ${{github.workspace}}
+      working-directory: ${{github.workspace}}/test
       run: |
         cmake -S . -B build `
         -DCMAKE_BUILD_TYPE=${{env.BUILD_TYPE}} `
