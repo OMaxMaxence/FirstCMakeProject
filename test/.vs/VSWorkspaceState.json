@@ -1,0 +1,28 @@
+{
+  "OutputFoldersPerTargetSystem": {
+    "Ordinateur local": [
+      "out\\build\\x64-debug",
+      "out\\install\\x64-debug",
+      "out\\build\\x64-release",
+      "out\\install\\x64-release",
+      "out\\build\\x86-debug",
+      "out\\install\\x86-debug",
+      "out\\build\\x86-release",
+      "out\\install\\x86-release"
+    ]
+  },
+  "ExpandedNodes": [
+    "",
+    "\\include",
+    "\\out",
+    "\\out\\build",
+    "\\out\\build\\x86-debug",
+    "\\out\\build\\x86-debug\\.cmake",
+    "\\out\\build\\x86-debug\\.cmake\\api",
+    "\\out\\build\\x86-debug\\.cmake\\api\\v1",
+    "\\out\\build\\x86-debug\\CMakeFiles",
+    "\\src"
+  ],
+  "SelectedNode": "\\out\\build\\x86-debug\\CMakeFiles\\pkgRedirects",
+  "PreviewInSolutionExplorer": false
+}
