@@ -40,10 +40,10 @@ jobs:
       shell: pwsh
 
     - name: Build
-      run: cmake --build ${{github.workspace}}/test/out/build --config ${{env.BUILD_TYPE}}
+      run: cmake --build ${{github.workspace}}/test/out/build/x86-debug --config ${{env.BUILD_TYPE}}
 
     - name: Run
-      working-directory: ${{github.workspace}}/test/out/build/src/${{env.BUILD_TYPE}}
+      working-directory: ${{github.workspace}}/test/out/build/x86-debug/src
       run: |
         start /b .\test.exe
         timeout /t 5
